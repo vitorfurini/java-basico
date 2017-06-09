@@ -1,0 +1,11 @@
+*.class
+# Package Files #
+*.jar
+*.war
+*.ear
+/projectPreferences.epf
+/projectSet.psf
+/.launchconfig
+/.settings
+/.project
+/.tern-project
