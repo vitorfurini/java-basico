@@ -1,0 +1,58 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication1;
+
+/**
+ *
+ * @author aluno
+ */
+public class JavaApplication1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+
+        int codigo = 0;
+        int grupo = 0;
+        int lastGroup = 0;
+        int grupo1 = 0;
+        int grupo2 = 0;
+        int grupo3 = 0;
+
+        for (codigo = 0; codigo < 5; codigo++ ) {
+
+            if ((codigo % 3) == 0) {
+                grupo = 1;
+                grupo1++;//
+            } else if ((codigo % 3) == 1) {
+                grupo = 2;
+                grupo2++;
+            } else {
+                grupo = 3;
+                grupo3++;
+            }
+            System.out.println("" + grupo);
+            
+        }
+        
+        if (grupo1 < grupo2 || grupo1 < grupo3){
+            grupo = 1;
+        } else if (grupo2 < grupo1 || grupo2 < grupo3) {
+            grupo = 2;
+        } else if(grupo3 < grupo1 || grupo3 < grupo2) {
+            grupo = 3;
+        }
+        
+        System.out.println("grupo " + grupo);
+        
+        
+        System.out.println("xGrupo1 " + grupo1);
+        System.out.println("xGrupo2 " + grupo2);
+        System.out.println("xGrupo3 " + grupo3);
+    }
+
+}
