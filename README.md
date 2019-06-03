@@ -1,2 +1,2 @@
 # java-basico
-Recursos básicos do java.
+Alguns códigos básicos desenvolvidos para estudos acadêmicos.
