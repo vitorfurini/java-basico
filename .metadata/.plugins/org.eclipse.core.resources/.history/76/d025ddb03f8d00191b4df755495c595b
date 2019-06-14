@@ -1,0 +1,23 @@
+package Application;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import entities.Funcionario;
+
+public class Application {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		List<Funcionario> list = new ArrayList<>();
+		
+		System.out.println("Quantos funcionarios deseja cadastrar?");
+		int n = sc.nextInt();
+		
+		
+		
+	}
+}
